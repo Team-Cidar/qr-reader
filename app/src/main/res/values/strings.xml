@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">한세대 식권 QR 리더기</string>
+    <string name="api_url">http://hanseiweeklymenu.me:8000/tickets/validate/</string>
+</resources>
