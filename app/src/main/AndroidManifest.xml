@@ -24,13 +24,21 @@
         <!-- CleartextTraffic option: allow http traffic -->
 
         <activity android:name=".MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".activities.ScanBySchoolActivity"
+            android:label="School"
+            android:screenOrientation="fullSensor"
+            />
+        <activity android:name=".activities.ScanBySelfActivity"
+            android:label="Self"
+            android:screenOrientation="fullSensor"
+            />
 
         <activity android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:screenOrientation="fullSensor"
